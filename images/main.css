@@ -55,7 +55,7 @@ article > div:last-child {
 }
 
 .join {
-  background-image: url(./images/Paste\ image.png);
+  background-image: url(./Paste\ image.png);
   max-width: 100%;
   height: 36rem;
   margin: auto;
@@ -138,7 +138,6 @@ footer > div > div:last-child > div:last-child img {
 
 @media screen and (max-width: 880px) {
   .join {
-    background-image: none;
     font-size: 0.8rem;
   }
   footer {
@@ -161,5 +160,10 @@ footer > div > div:last-child > div:last-child img {
   }
   footer div > div:last-child div:first-child p:first-child {
     text-align: center;
+  }
+}
+@media screen and (max-width: 440px) {
+  .join {
+    background-image: none;
   }
 }/*# sourceMappingURL=main.css.map */

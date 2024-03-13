@@ -63,7 +63,7 @@ article{
 
 
 .join{
-    background-image: url(./images/Paste\ image.png);
+    background-image: url(./Paste\ image.png);
     max-width: 100%;
     height: 36rem;
     margin: auto;
@@ -186,7 +186,6 @@ footer{
 @media screen and (max-width: 880px){
 
     .join{
-        background-image: none;
         font-size: 0.8rem;
         
     }
@@ -236,4 +235,12 @@ footer{
 
 
     }
+}
+
+@media screen and (max-width: 440px){
+    .join{
+        background-image: none;
+        
+    }
+
 }
