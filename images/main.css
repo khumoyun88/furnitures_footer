@@ -64,15 +64,16 @@ article > div:last-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 1rem;
 }
 .join h5 {
-  font-size: 1.8rem;
+  font-size: 1.8em;
   margin-block: 0 5rem;
   font-weight: 400;
 }
 .join > div {
-  width: 48.8rem;
-  height: 5.2rem;
+  width: 48.8em;
+  height: 5.2em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,17 +85,18 @@ article > div:last-child {
 }
 .join > div > div span {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 1em;
 }
 .join > div > div input {
   border: none;
   background-color: inherit;
-  font-size: 1.6rem;
+  font-size: 1.6em;
 }
 .join > div button {
   border: none;
+  background-color: inherit;
   color: gray;
-  font-size: 1.6rem;
+  font-size: 1.6em;
 }
 
 footer {
@@ -135,6 +137,10 @@ footer > div > div:last-child > div:last-child img {
 }
 
 @media screen and (max-width: 880px) {
+  .join {
+    background-image: none;
+    font-size: 0.8rem;
+  }
   footer {
     height: 66rem;
   }

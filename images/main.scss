@@ -72,18 +72,19 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
 
 
     h5{
-        font-size: 1.8rem;
+        font-size: 1.8em;
         margin-block: 0 5rem;
         font-weight: 400;
     }
 
 
     >div{
-        width: 48.8rem;
-        height: 5.2rem;
+        width: 48.8em;
+        height: 5.2em;
         // text-align: center;
         display: flex;
         align-items: center;
@@ -97,27 +98,25 @@ article{
 
             span{
                 display:inline-block;
-                margin-right: 1rem;
+                margin-right: 1em;
             }
             input{
                 border: none;
                 background-color: inherit;
-                font-size: 1.6rem;
+                font-size: 1.6em;
             }
 
         }
         
         button{
             border: none;
+            background-color: inherit;
             color: gray;
-            font-size: 1.6rem;
+            font-size: 1.6em;
         }
 
 
     }
-
-
-
 
 
 
@@ -185,6 +184,12 @@ footer{
 
 
 @media screen and (max-width: 880px){
+
+    .join{
+        background-image: none;
+        font-size: 0.8rem;
+        
+    }
 
     footer{
         height: 66rem;
